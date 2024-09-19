@@ -223,8 +223,6 @@ Can also specify the named argument C<:no-resample>, which will disable
 resampling (using "smooth" copying from a large image to a smaller one,
 using a weighted average of the pixels).
 
-jpeg-quality
-
 When copying to a jpeg image, you can also specify the named argument
 C<:jpeg-quality> to change the quality of the resized image.  The value
 should be 0 .. 95.  A negative value will set it to default jpeg value
