@@ -1,5 +1,4 @@
-use v6;
-use GD::Raw;
+use GD::Raw:ver<0.3+>:auth<zef:raku-community-modules>;
 
 sub get-png-size($path) is export {
     my $fh = fopen($path, "rb") 
@@ -27,4 +26,5 @@ END {
         try { unlink $d.Str }
     }
 }
-# vim: ft=perl6
+
+# vim: expandtab shiftwidth=4

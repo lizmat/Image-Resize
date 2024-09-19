@@ -1,23 +1,28 @@
 {
-  "authors" : [
-    "Dagur Valberg Johannsson"
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Dagur Valberg Johannsson",
+    "Raku Community"
   ],
-  "build-depends" : [ ],
-  "depends" : [
-    "GD::Raw"
+  "build-depends": [
   ],
-  "description" : "Resize images using GD",
-  "license" : "Artistic-2.0",
-  "name" : "Image::Resize",
-  "perl" : "6.*",
-  "provides" : {
-    "Image::Resize" : "lib/Image/Resize.pm6"
+  "depends": [
+    "GD::Raw:ver<0.3+>:auth<zef:raku-community-modules>"
+  ],
+  "description": "Resize images using GD",
+  "license": "Artistic-2.0",
+  "name": "Image::Resize",
+  "perl": "6.*",
+  "provides": {
+    "Image::Resize": "lib/Image/Resize.rakumod"
   },
-  "resources" : [ ],
-  "source-url" : "git://github.com/dagurval/perl6-image-resize.git",
-  "tags" : [ ],
-  "test-depends" : [
-    "Test::META"
+  "resources": [
   ],
-  "version" : "0.01"
+  "source-url": "https://github.com/raku-community-modules/Image-Resize.git",
+  "tags": [
+    "IMAGE"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.1"
 }
